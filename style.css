@@ -1,0 +1,258 @@
+:root{
+    --yellow: #e5ff51;
+    --pink: #d2427f;
+    --blue: #28a6da;
+    --green: #99ec3f;
+    --white: #fff;
+    --black: #000;
+    --red: #bd0000;
+    --purple: #9859b6;
+    --orange: #f89735;
+    --ligthblue: #4deeea;
+    --greenblue: #cbf026;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: #202e38;
+    font-family: 'Signika Negative', sans-serif;
+    color: var(--white);
+
+}
+
+h1,h2{
+    margin: 0;
+    text-align: center; 
+    position: relative;
+    top: 20px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+h2{
+    font-size: 15px;
+}
+.simbologia{
+    width: 300px;
+    margin: auto;
+    padding: 0;
+    position: relative;
+    top: -60px;
+}
+.category{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.item{
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.text{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    margin-top: -12px;
+    display: block;
+    margin-left: 20px;}
+/* Tabla box para los datos */
+
+
+.numberBox{  
+    text-align: right;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 8px;
+    margin-top: 6px;
+    padding-right: 3px;
+}
+
+.elementBox{
+    width: 130px;
+    height: 130px;
+    margin-top: 3px;
+    margin-right: 12px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.symbolBox{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.nombreBox{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+/* Medidas de las tablas principales */
+.tableBox{
+    width: 89%;
+    margin-bottom: -20px;
+    margin-left: 290px;
+    justify-content: flex-start;
+    align-items: flex-end;
+    display: flex;
+    top: 5px;}
+  
+.tableMain{
+    width: 89.4%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    top: -280px;    
+}
+.tableMain-Dos{
+    width: 91%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    top: -280px;
+}
+
+.element{
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-right: 10px;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+.number {
+    text-align: right;
+    font-size: 11px;
+    font-weight: bold;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+.symbol {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 5px;
+}
+.nombre{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 5px; }
+
+.capital-letter{
+    text-transform: uppercase;
+}
+
+.dev{
+    border: 7px solid var(--ligthblue);
+    color: var(--ligthblue);
+}
+
+.GasBox{
+    border: 5px solid var(--ligthblue);
+    color: var(--ligthblue);
+}
+
+
+.GasNoble{
+    border: 5px solid var(--ligthblue);
+    color: var(--ligthblue);
+}
+
+.Alcalino{
+    border: 5px solid var(--purple);
+    color: var(--purple);
+}
+.AlcalinoTerreo{
+    border: 5px solid var(--red);
+    color: var(--red);
+}
+.MetalTransicion{
+    border: 5px solid var(--greenblue);
+    color: var(--greenblue);
+}
+.lantanidos{
+    margin-top: 20px;
+    border: 5px solid var(--white);
+    color: var(--white);
+}
+.Actinidos{
+    
+    border: 5px solid var(--white);
+    color: var(--white);
+}
+.NoMetal{
+    border: 5px solid var(--blue);
+    color: var(--blue);
+}
+.Metaloides{
+    border: 5px solid var(--green);
+    color: var(--green);
+}
+.MetaloidesTransicion{
+    border: 5px solid var(--green);
+    color: var(--green);
+}
+.Halagenos{
+    border: 5px solid var(--pink);
+    color: var(--pink);
+}
+.MetalesAlcalinos{
+    border: 5px solid var(--orange);
+    color: var(--orange);
+}
+
+
+.element:hover{
+    transform: scale(1.1);
+    color: var(--black);
+    transition-duration: 0.3s;
+    cursor: pointer;}
+
+.GasNoble:hover{
+    background: var(--ligthblue);
+}
+.Alcalino:hover{
+    background: var(--purple);
+}
+.AlcalinoTerreo:hover{
+    background: var(--red);
+}
+.MetalTransicion:hover{
+    background: var(--greenblue);
+}
+.lantanidos:hover{
+    background: var(--white);
+}
+.Actinidos:hover{
+    background: var(--white);
+}
+.NoMetal:hover{
+    background: var(--blue);
+}
+.Metaloides:hover{
+    background: var(--green);
+}
+.MetaloidesTransicion:hover{
+    background: var(--green);
+}
+.Halagenos:hover{
+    background: var(--pink);
+}
+.MetalesAlcalinos:hover{
+    background: var(--orange);
+}
